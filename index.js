@@ -44,6 +44,7 @@ cart.slice();
 }
 
 function placeOrder(cardNumber) {
+  cart = 0;
   if (cardNumber) {
     `Your total cost is $${total(cart)}, which will be charged to the card ${cardNumber}.`;
   }
