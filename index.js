@@ -26,6 +26,7 @@ function viewCart() {
    newString += `${cart[i].itemName} at ${cart[i].itemPrice},`;
    }
 }
+return newString;
 }
 function total() {
 
