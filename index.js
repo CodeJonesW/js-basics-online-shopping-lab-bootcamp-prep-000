@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-let getCart = {itemName: item, itemPrice: Math.random()};
+let cart = {itemName: item, itemPrice: Math.random()};
 return `${item} has been aded to your cart.`;
 }
 
