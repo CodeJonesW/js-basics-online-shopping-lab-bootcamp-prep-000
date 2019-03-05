@@ -23,7 +23,7 @@ function viewCart() {
    if (i === cart.length-1) {
      newString += ` and ${cart[i].itemName} at $${cart[i].itemPrice}.`;
    } else {
-   newString += ` ${cart[i].itemName} at $${cart[i].itemPrice},`;
+   newString += `${cart[i].itemName} at $${cart[i].itemPrice}, `;
    }
 }
 return newString;
