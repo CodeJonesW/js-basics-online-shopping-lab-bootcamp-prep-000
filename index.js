@@ -40,7 +40,7 @@ return totalValue;
 }
 
 function removeFromCart(item) {
-  // write your code here
+cart.slice
 }
 
 function placeOrder(cardNumber) {
