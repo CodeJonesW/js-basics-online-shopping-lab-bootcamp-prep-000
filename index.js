@@ -15,13 +15,13 @@ return `${item} has been added to your cart.`;
 }
 
 function viewCart() {
-  // write your code here
+   for (var i = 0; i < cart.length; i++) {
+   return 
+ }
 }
 
 function total() {
- for (var i = 0; i < cart.length; i++) {
-   return 
- }
+
 }
 
 function removeFromCart(item) {
