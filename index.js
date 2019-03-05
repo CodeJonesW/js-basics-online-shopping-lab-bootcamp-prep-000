@@ -40,6 +40,9 @@ return totalValue;
 }
 
 function removeFromCart(item) {
+  if (!cart[i].item) {
+    return undefined;
+  }
 cart.slice();
 }
 
