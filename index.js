@@ -20,6 +20,9 @@ function viewCart() {
     return 'Your shopping cart is empty.';
   }
  for (var i = 0; i < cart.length; i ++) {
+   if (i === cart.length-1) {
+     newString += 
+   }
    newString += `In your cart, you have
  }
 }
