@@ -40,6 +40,7 @@ return totalValue;
 }
 
 function removeFromCart(item) {
+  for (var i = 0; i < cart[i].length; i++) {
   if (!cart[i].item) {
     return undefined;
   }
