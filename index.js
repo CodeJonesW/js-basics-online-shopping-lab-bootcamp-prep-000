@@ -40,12 +40,12 @@ return totalValue;
 }
 
 function removeFromCart(item) {
-cart.slice()
+cart.slice();
 }
 
 function placeOrder(cardNumber) {
   if (cardNumber) {
-    `Your total cost is $${total(cart)}, which will be charged to the card ${cardNumber}.`
+    `Your total cost is $${total(cart)}, which will be charged to the card ${cardNumber}.`;
   }
   if (!cardNumber) {
     `Sorry, we don't have a credit card on file for you.`;
