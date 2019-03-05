@@ -44,11 +44,12 @@ cart.slice();
 }
 
 function placeOrder(cardNumber) {
-  cart = 0;
-  if (cardNumber) {
-    `Your total cost is $${total(cart)}, which will be charged to the card ${cardNumber}.`;
-  }
   if (!cardNumber) {
-    `Sorry, we don't have a credit card on file for you.`;
+    return `Sorry, we don't have a credit card on file for you.`;
   }
+   if (cardNumber) {
+     cart = 0;
+    return `Your total cost is $${total(cart)}, which will be charged to the card ${cardNumber}.`;
+  }
+  
 }
