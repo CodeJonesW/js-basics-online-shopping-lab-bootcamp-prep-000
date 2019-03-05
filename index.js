@@ -56,6 +56,6 @@ function placeOrder(cardNumber) {
    if (cardNumber) {
      var newVariable = total();
      cart = [];
-    return `Your total cost is $${total}, which will be charged to the card ${cardNumber}.`;
+    return `Your total cost is $${newVariable}, which will be charged to the card ${cardNumber}.`;
   }
 }
