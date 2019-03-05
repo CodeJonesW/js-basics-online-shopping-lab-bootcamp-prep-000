@@ -34,7 +34,7 @@ return newString;
 function total() {
   var totalValue = 0;
   for (var i = 0; i < cart.length; i++) {
-    totalValue = cart[i].itemPrice + totalValue 
+    totalValue = cart[i].itemPrice + totalValue;
 }
 return totalValue;
 }
