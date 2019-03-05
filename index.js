@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-let newFood = {itemName: '', itemPrice: ''};
+let newFoodObj = {itemName: item, itemPrice: ''};
 }
 
 function viewCart() {
