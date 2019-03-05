@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
 let newFoodObj = {itemName: item, itemPrice: Math.random()};
-return newFoodObj;
+return `${item} has been aded to your cart`;
 }
 
 function viewCart() {
