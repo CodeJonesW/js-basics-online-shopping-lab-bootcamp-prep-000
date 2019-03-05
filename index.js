@@ -46,6 +46,7 @@ function removeFromCart(item) {
   }
 cart.slice();
 }
+}
 
 function placeOrder(cardNumber) {
   if (!cardNumber) {
