@@ -16,8 +16,9 @@ return `${item} has been added to your cart.`;
 
 function viewCart() {
    for (var i = 0; i < cart.length; i++) {
-   return cart[i];
+   cart[i];
  }
+ return cart;
 }
 
 function total() {
