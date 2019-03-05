@@ -15,7 +15,7 @@ return `${item} has been added to your cart.`;
 }
 
 function viewCart() {
-  newString = 'In your cart, you have ';
+  var newString = 'In your cart, you have ';
   if (cart.length === 0) {
     return 'Your shopping cart is empty.';
   }
