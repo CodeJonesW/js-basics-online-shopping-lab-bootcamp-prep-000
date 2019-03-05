@@ -15,10 +15,13 @@ return `${item} has been added to your cart.`;
 }
 
 function viewCart() {
+  newString = '';
   if (cart.length === 0) {
     return 'Your shopping cart is empty.';
   }
- return cart;
+ for (var i = 0; i < cart.length; i ++) {
+   newString += `In your cart, you have
+ }
 }
 
 function total() {
